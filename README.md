@@ -77,7 +77,7 @@ You must match against this exact job.
 
 ```bash
 # First time only
-docker compose up --build   # starts Postgres (pre-seeded), API on :3000, Web on :3001
+docker compose up --build   # starts Postgres
 
 # Then, in another terminal
 npm run dev                 # starts both API + Web with hot-reload (TurboRepo)
